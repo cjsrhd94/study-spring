@@ -62,7 +62,7 @@ public class Student {
     // 1. 생성자 주입
     @Autowired
     public Student(Action action) {
-        this.action = new action();
+        this.action = action;
     }
 
     // 2. 설정자 주입
